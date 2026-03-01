@@ -14,7 +14,7 @@ class Hyd:
             print("\t {}----{}".format(k,v))
         print("*"*50)
 #Main program
-#L1=list() Pre defined builtins module present in every where by default
+#L1=list() Pre defined builtins module by default imported to every python programm..
 eo=Employee()
 so=Student()
 to=Teacher()

@@ -24,6 +24,7 @@ class Student:
         print("\t Student course:{}".format(self.crs))
         print("===========================================")
 #main program
+#Student.getcrs()===>>>Calling through class name
 s1=Student()
 s2=Student()
 #s1.getcrs() #Calling through object name

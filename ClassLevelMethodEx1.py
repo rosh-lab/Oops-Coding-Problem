@@ -2,7 +2,7 @@
 #ClassLevelMethodEx1.py
 class Student:
     @classmethod
-    def getcrses(cls):
+    def getcrses(cls): #here cls contains name of the current class
         cls.crs="Python"
         Student.urname="JNTU" #here crs and urname are called class level data members
         return cls.crs,cls.urname
@@ -18,6 +18,6 @@ print("Couses=",s1.crs)
 print("Student University=",s1.urname)
 print("=====OR===============================")
 Student().getcrses() #calling class level method by using nameless object
-print("Couses=",Student().getcrses()[0])
+print("Courses=",Student().getcrses()[0])
 print("Student University=",Student().getcrses()[1])
 
